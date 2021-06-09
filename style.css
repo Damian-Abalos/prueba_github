@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+}
+.mi-navbar{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-bottom: black 2px solid;
+}
+.secciones-header{
+    margin-left: -8em;
+}
+
+.boton-nav{
+    background-color: white;
+}
+.logo{
+    max-width: 300px;
+}
+h1{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    background-color: white;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#descripcion{
+    background-image: url(images/fondo-descripcion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#descripcion h2, #descripcion h3, #descripcion p{
+    color: rgb(255, 255, 255);
+    margin: 1em 0;
+}
+.img-sova{
+    width: 30em;
+}
+#habilidades{
+}
+#habilidades h2{
+    border-top: #000 2px solid;
+    padding: 1em;
+    color: #000;
+    background-color: #ffffff;
+}
+#habilidades img{
+    max-height: 150px;
+    max-width: 150px;
+}
+.carousel-indicators [data-bs-target]:nth-child(1){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltebf4f748f87b2222/5eaf85dc4398082ffe24018f/TX_Sova_Q.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-indicators [data-bs-target]:nth-child(2){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5084114604f20525/5eaf85b108d37e6d82ef74ef/TX_Sova_E.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-indicators [data-bs-target]:nth-child(3){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt74a6f56b5c37edb5/5eaf85b1f66b2515dea76b26/TX_Sova_C.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-indicators [data-bs-target]:nth-child(4){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5515bdb07fabe98/5eaf85b1b8a6356e4ddc1001/TX_Sova_X.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-habilidades{
+    background-color: #000;
+
+}
+
+.carousel-habilidades h5{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    background-color: rgba(32, 32, 32, 0.911);
+}
+.carousel-habilidades p{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    background-color: rgba(68, 68, 68, 0.808);
+    color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+}
+.video-habilidades{
+    padding: 0 10%;
+    max-height: 675px;
+}
+
+#line-ups{
+    background-color: #000000;
+    
+}
+.line-ups{
+    background-color: #056CF2;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-top: rgb(255, 255, 255) 2px solid;
+    border-bottom: rgb(255, 255, 255) 2px solid;
+}
+.contenedor-line-ups{
+    margin: 5px 0;
+}
+.mapa{
+    width: 100%;
+    transition: all 0.5s ;
+    border: solid 2px rgb(0, 0, 0);
+}
+.fondo-mapa{
+    background-color: rgb(200, 200, 200);
+    padding: 0.5em 1em ;
+    border: black solid 3px;
+}
+.mapa:hover{
+    transform: scale(1.06);
+}
+
+.go-top-btn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(67, 95, 255);
+    border: rgb(128, 128, 128) 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+    bottom: 50px;
+    right: 30px;
+    z-index: 5;
+}
+
+/* @media only screen and (max-width: 990px){
+    .secciones-header li a{
+        background-color: white;
+
+    }
+} */
